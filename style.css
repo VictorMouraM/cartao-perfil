@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    background-color: hsl(185, 75%, 39%);
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+}
+
+main{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    width: 400px;
+    height: 350px;
+    background-color: #fff;
+    border-radius: 7px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.card .infos-profile{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.card .infos-profile img{
+    height: 130px;
+    border-radius: 50%;
+}
+
+.card .informations-counter{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.card .infos-profile .name,
+.card .counter-info .counter{
+    font-weight: 700;
+}
+
+.card .infos-profile .age,
+.card .infos-profile .nacionality,
+.card .counter-info .counter-name{
+    color: hsl(227, 10%, 46%);;
+}
+
